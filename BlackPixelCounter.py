@@ -19,6 +19,6 @@ print("Number of holes (black pixels):", hole_count)
 
 # Show the image in black and white
 plt.imshow(image_bw, cmap='gray')
-plt.title('Immagine in bianco e nero')
+plt.title('Picture in black and white')
 plt.axis('on')  # axis switch set on/off
 plt.show()
